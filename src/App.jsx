@@ -107,7 +107,7 @@ const App = () => {
        <Route path="/register" element={<Registration />} /> 
        <Route path="/dashboard" element={isAuthenticated ? <DashboardHomePage userInfo={userInfo} setUserInfo={setUserInfo}/> : <Navigate to="/"/> } /> 
        <Route path="/reset-password" element={<ResetPassword />} /> 
-       <Route path="/dashboard" element={<DashboardHomePage />} /> 
+       {/* <Route path="/dashboard" element={<DashboardHomePage />} />  */}
        {/* <Route path="/dashboard/past" element={<DashboardPastEvents />} />  */}
       {/* <Route path="/dashboard/bookmark" element={<DashboardBookmarkEvents />} />  */}
     </Routes>
