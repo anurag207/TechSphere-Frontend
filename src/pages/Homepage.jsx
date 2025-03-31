@@ -59,7 +59,7 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
           </Link>
         </div>
         <div className={styles.bannerImage}>
-          <img src="/src/pages/images/OBJECT.svg" alt="Banner" />
+          <img src="/images/OBJECT.svg" alt="Banner" />
         </div>
       </section>
       <section className={styles.events}>
@@ -72,7 +72,7 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
             }`}
           >
             <div className={styles.logo}>
-              <img src="/src/TestImages/hackathon.svg"></img>
+              <img src="/TestImages/hackathon.svg"></img>
             </div>
             <div className={styles.logotext}> Hackathon</div>
           </button>
@@ -84,7 +84,7 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
             }`}
           >
             <div className={styles.logo}>
-              <img src="/src/TestImages/webinar.svg"></img>
+              <img src="/TestImages/webinar.svg"></img>
             </div>
             <div className={styles.logotext}> Webinar</div>
           </button>
@@ -96,7 +96,7 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
             }`}
           >
             <div className={styles.logo}>
-              <img src="/src/TestImages/workshop.svg"></img>
+              <img src="/TestImages/workshop.svg"></img>
             </div>
             <div className={styles.logotext}> Workshop</div>
           </button>
@@ -108,7 +108,7 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
             }`}
           >
             <div className={styles.logo}>
-              <img src="/src/TestImages/conference.svg"></img>
+              <img src="/TestImages/conference.svg"></img>
             </div>
             <div className={styles.logotext}> Conference</div>
           </button>
@@ -144,7 +144,7 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
         <div className={styles.workboxes}>
           <div className={styles.workbox}>
             <div className={styles.hImgContainer}>
-              <img src="/src/pages/images/Hworks.svg"></img>
+              <img src="/images/Hworks.svg"></img>
             </div>
             <div className={styles.hTextContainer}>
               Search For your Desired Event.
@@ -152,7 +152,7 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
           </div>
           <div className={styles.workbox}>
             <div className={styles.hImgContainer}>
-              <img src="/src/pages/images/Hworks2.svg"></img>
+              <img src="/images/Hworks2.svg"></img>
             </div>
             <div className={styles.hTextContainer}>
               Explore Details and Check Requirements.
@@ -160,7 +160,7 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
           </div>
           <div className={styles.workbox}>
             <div className={styles.hImgContainer}>
-              <img src="/src/pages/images/Hworks3.svg"></img>
+              <img src="/images/Hworks3.svg"></img>
             </div>
             <div className={styles.hTextContainer}>Register with Ease.</div>
           </div>

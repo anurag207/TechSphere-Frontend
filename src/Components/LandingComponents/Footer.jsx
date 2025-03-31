@@ -32,14 +32,14 @@ const Footer = () => {
 
         <div className="footer-bottom"> 
           <div className="footer-branding">
-            <span className="footer-logo"><img src="/src/TestImages/FooterLogo.svg"></img></span>
+            <span className="footer-logo"><img src="/TestImages/FooterLogo.svg"></img></span>
           </div>
           
           <div className="footer-social">
-            <a href="#" className="footer-icon"><img src = "/src/TestImages/youtube.svg"></img></a>
-            <a href="#" className="footer-icon"><img src = "/src/TestImages/instagram.svg"></img></a>
-            <a href="#" className="footer-icon"><img src = "/src/TestImages/linkedin.svg"></img></a>
-            <a href="#" className="footer-icon"><img src = "/src/TestImages/facebook.svg"></img></a>
+            <a href="#" className="footer-icon"><img src = "/TestImages/Youtube.svg"></img></a>
+            <a href="#" className="footer-icon"><img src = "/TestImages/Instagram.svg"></img></a>
+            <a href="#" className="footer-icon"><img src = "/TestImages/linkedin.svg"></img></a>
+            <a href="#" className="footer-icon"><img src = "/TestImages/facebook.svg"></img></a>
           </div>
         </div>
         </div>
