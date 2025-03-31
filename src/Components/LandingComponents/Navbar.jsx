@@ -71,7 +71,8 @@ const Navbar = ({manageLogin,userInfo,setUserInfo,onSearch,filter=""  }) => {
             {showDropdown && (
               <div className={styles.dropdownContent}>
                 <div className={styles.dropdownContent_myEvents_container}>
-                <a className={styles.dropdownContent_myEvents} href="/dashboard">My Events</a>
+                {/* <a className={styles.dropdownContent_myEvents} href="/dashboard">My Events</a> */}
+                <Link className={styles.dropdownContent_myEvents} to="/dashboard">My Events</Link>
                 
                 </div>
                 <div className={styles.dropdownContent_logout_container}>
