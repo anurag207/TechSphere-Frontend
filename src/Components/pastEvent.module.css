@@ -1,0 +1,13 @@
+.eventDisplay_pastEvents{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* padding-right: 160px; */
+    /* padding-left: 160px; */
+    /* margin-left: 30px; */
+    /* margin-bottom: 20px; */
+    /* margin-left: 80px; */
+    /* margin-top: 20px;; */
+   justify-content: center;
+  /* gap: 20px; */
+}

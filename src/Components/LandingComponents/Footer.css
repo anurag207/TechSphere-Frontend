@@ -1,0 +1,102 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 60px 120px;
+    text-align: left;
+  }
+  
+  .footer-container {
+    
+  }
+  
+  .footer-grid {
+    display: flex;
+    gap: 42px;
+  }
+  
+  .Contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+
+  .Contact p {
+    color: white;
+  }
+
+  .footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 12px;
+  }
+
+
+  
+  .footer-list {
+    margin-top: 8px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    
+  }
+  
+  .footer-branding {
+    
+    
+  }
+  
+  .footer-logo {
+    position: relative;
+    left: 60px;
+  }
+  
+  .footer-tagline {
+    font-size: 14px;
+  }
+  
+  .footer-social {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    padding-top: 40px;
+    /* padding-left: 120px; */
+    display: flex;
+    gap: 16px;
+  }
+  
+  .footer-icon {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    color: gray;
+  }
+
+  hr{
+    margin-top:40px;
+  }
+  
+  .footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-top: 16px;
+  }
+  

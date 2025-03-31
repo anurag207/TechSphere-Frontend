@@ -1,0 +1,165 @@
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popupOuter {
+  text-align: center;
+  background: white;
+  padding: 32px 96px 48px 96px;
+  border-radius: 32px; 
+}
+
+.popupContent {
+  background: #F8FAFC;
+  border-color: #E2E8F0;
+  padding: 12px 30px;
+  border-radius: 12px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.closeBtnContainer {
+  padding-bottom: 12px;
+  position: relative;
+  left: 156px;
+}
+
+.closeBtn {
+  cursor: pointer;
+  font-size: 32px;
+  border: none;
+  background: none;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  cursor: pointer; /* Makes it clickable */
+}
+
+.authTabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.authTabs button {
+  color: black;
+  font-size: 14px;
+  width: 164px;
+  height: 40px;
+  border-radius: 39px;
+  padding: 8px 24px;
+  gap: 8px;
+}
+
+.authTabs button.active {
+  color: white;
+  background-color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.resetPassword {
+  text-align: right;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.otpContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.otpInputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.otpInputs input {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.otpInputs input:focus {
+  outline: 2px solid #007bff;
+}
+
+.thirdPartyAuth button {
+  width: 100%;
+  padding: 12px;
+  background: #db4437;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.signupPrompt {
+  font-size: 14px;
+  color: #555;
+}
+
+.signupPrompt span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.resetPasswordContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.resetPasswordContainer input {
+  width: 100%;
+}

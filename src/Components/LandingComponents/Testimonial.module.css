@@ -1,0 +1,94 @@
+.testimonials {
+    background-color: #000;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 230px;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    /* margin-left: 140px; */
+  }
+  
+  .navigation {
+    /* margin-right: 140px; */
+    
+  }
+  
+  .arrow {
+    padding-left:30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+
+  .arrow:hover{
+    opacity: 0.5;
+  }
+  
+  .testimonialCards {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    /* max-width: 80%; Restrict the width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .testimonialCard {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    width: 300px;
+    /* height: 216px; */
+    border: solid 1px #64748B;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .testimonialCard p {
+    font-size: 1rem;
+    text-align:left;
+    line-height: 1.5;
+    color: white; /* Explicitly set text color */
+  }
+  
+  .user {
+    /* position: relative;
+    right: 80px;
+    bottom: 10px; */
+    display: flex;
+    margin-right: 140px;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .userImage {
+    width: 40px;
+    border: solid 2px white;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  

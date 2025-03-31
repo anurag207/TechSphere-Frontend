@@ -1,0 +1,89 @@
+.formwrapper {
+    width: 650px;
+    height: 700px;
+    position: relative; 
+    top: 51px;
+    left: 320px;
+    border-radius: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+.container {
+    margin-top:5px;
+    margin-left:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background: #F8FAFC;
+    padding: 35px;
+    border-radius: 13px;
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+
+.main h3 {
+    margin-bottom: 0; 
+}
+
+.main p {
+    margin-bottom: 10px; 
+}
+
+
+.main div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px; 
+}
+
+.main input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.regbutton {
+    background-color:#EB5B00;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width:auto;
+}
+.closeButton {
+    
+    position: relative;
+    top: -20px;
+    left: 11rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:black;
+    font-size: 20px;
+  }
+  
+  .closeButton:hover {
+    color: grey;
+  }
+  
