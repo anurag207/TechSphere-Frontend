@@ -10,7 +10,7 @@ const SavedEvents = ({ bookmarkedEvents =[]}) => {
       {bookmarkedEvents.length > 0 ? (
         <Eventcard eventdata={bookmarkedEvents} />
       ) : (
-        <p>No saved events found</p>
+        <p>Loading Saved Events</p>
       )}
     </div>
   );

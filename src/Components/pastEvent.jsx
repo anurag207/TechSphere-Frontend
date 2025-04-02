@@ -12,7 +12,7 @@ const PastEvents = ({ pastEvents }) => {
       {filteredPastEvents.length > 0 ? (
         <Eventcard eventdata={filteredPastEvents} />
       ) : (
-        <p>No past events found.</p>
+        <p>Loading Past Events...</p>
       )}
     </div>
   );

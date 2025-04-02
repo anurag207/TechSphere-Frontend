@@ -39,7 +39,7 @@ const SingleEventCard = ({ event, imageBg, userInfo, manageLogin }) => {
       {/* <div className="image-container" style={{ backgroundColor: imageBg }}> */}
       <div className="image-container">
       <img className="img" src="/Illustration.png" alt="Illustration"/>
-        {/* <img className="img" src={event.image_url} alt={event.name}/> */}
+        {/* <img className="img" src={event.image_url} alt={event.name} /> */}
       </div>
       <div className="event-header">
         <p className="event-location">{event.location}</p>

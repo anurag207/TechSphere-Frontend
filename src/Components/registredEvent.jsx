@@ -9,7 +9,7 @@ const RegisteredEvents = ({ registeredEvents }) => {
       {registeredEvents.length > 0 ? (
         <Eventcard eventdata={registeredEvents} />
       ) : (
-        <p>No Registered Events Found!</p>
+        <p>Loading Registered Events...</p>
       )}
     </div>
   );
