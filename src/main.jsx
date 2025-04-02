@@ -24,7 +24,7 @@ createRoot(document.getElementById('root')).render(
       transition={Bounce}
       bodyClassName="toastBody"
     />
-    <ToastContainer />
+    {/* <ToastContainer /> */}
     </BrowserRouter>
   </StrictMode>,
 )
