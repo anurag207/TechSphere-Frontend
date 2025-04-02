@@ -164,7 +164,7 @@ const NonLoginPage = ({userInfo,setUserInfo,manageLogin}) => {
         {filteredEvents.length > 0 ? (
                     filteredEvents.map((event, index) => <Eventcard key={index} eventdata={event} userInfo={userInfo} manageLogin={manageLogin} />)
                   ) : (
-                    <p className={styles.noEventsText}>Loading Events...</p>
+                    <p className={styles.noEventsText}>No Events Found...</p>
                   )}
       </div>
 
