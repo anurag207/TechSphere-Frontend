@@ -80,7 +80,7 @@ const NonLoginPage = ({userInfo,setUserInfo,manageLogin}) => {
     <div className={styles.eventContainer}>
       <Navbar onSearch={setSearchText} userInfo={userInfo} setUserInfo={setUserInfo} manageLogin={manageLogin}/>
       <h2 className={styles.eventTitle}>Explore Events</h2>
-      <ToastContainer />
+      {/* <ToastContainer /> */}
       <div className={styles.sortContainer}>
         <div>
         <select onChange={(e) => setView(e.target.value)} value={view}>

@@ -11,6 +11,7 @@ import ResetPassword from "./pages/resetPasswordPage.jsx";
 import useGetIsAuthorized from "./hooks/useGetIsAuthorized.js";
 import useFetchEvents from "./hooks/useFetchEvents.js";
 import Dashboard from "./pages/dashboardHomePage.jsx";
+import { ToastContainer } from "react-toastify";
 
 // const App=()=>
 //     {
@@ -90,6 +91,8 @@ const App = () => {
   if (error) return <p>Error: {error}</p>;
 
   return (
+    <>
+    {/* <ToastContainer /> */}
     <Routes>
       <Route
         path="/"
@@ -111,6 +114,7 @@ const App = () => {
        {/* <Route path="/dashboard/past" element={<DashboardPastEvents />} />  */}
       {/* <Route path="/dashboard/bookmark" element={<DashboardBookmarkEvents />} />  */}
     </Routes>
+    </>
   );
 };
 
