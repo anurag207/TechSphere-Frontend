@@ -83,7 +83,7 @@ const App = () => {
       name,
     });
   };
-  
+
   if (!loading && firstLoad) {
     setFirstLoad(false);
   }
@@ -92,8 +92,8 @@ const App = () => {
 
   console.log("userInfo", userInfo);
 
-  if (loading) return <p>Loading events...</p>;
-  if (error) return <p>Error: {error}</p>;
+  // if (loading) return <p>Loading events...</p>;
+  // if (error) return <p>Error: {error}</p>;
 
   return (
     <>
