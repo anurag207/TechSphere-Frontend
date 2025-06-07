@@ -71,6 +71,7 @@ const App = () => {
   const [userInfo, setUserInfo] = useState({
     isAuthenticated: false,
   });
+  const [firstLoad, setFirstLoad] = useState(true);
 
   useGetIsAuthorized({ setUserInfo });
 
@@ -82,6 +83,10 @@ const App = () => {
       name,
     });
   };
+  
+  if (!loading && firstLoad) {
+    setFirstLoad(false);
+  }
 
   const { isAuthenticated } = userInfo;
 
@@ -99,6 +104,8 @@ const App = () => {
         element={
           <Homepage
             eventdata={eventData}
+            loading={loading} 
+            error={error}
             manageLogin={manageLogin}
             userInfo={userInfo}
             setUserInfo={setUserInfo}

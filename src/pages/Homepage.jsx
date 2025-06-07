@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 
-const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
+const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata, loading, error, firstLoad }) => {
   // console.log("HomepAGE",userInfo);
 
   const [searchText, setSearchText] = useState("");
@@ -115,7 +115,13 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
         </div>
         <div className={styles.eventDisplay}>
           {/* <EventCard eventdata={eventdata}/> */}
-          {filteredEvents.length > 0 ? (
+          {loading ? (
+    <p className={styles.noEventsText}>
+      {firstLoad ? "Server is starting up... Please wait." : "Loading events..."}
+    </p>
+  ) : error ? (
+    <p className={styles.noEventsText}>Failed to load events. Please try again.</p>
+  ) : filteredEvents.length > 0 ? (
             filteredEvents.map((event, index) => (
               <EventCard
                 key={index}
@@ -178,6 +184,8 @@ const Homepage = ({ manageLogin, userInfo, setUserInfo, eventdata }) => {
 
 Homepage.propTypes = {
   eventdata: PropTypes.array.isRequired,
+  loading: PropTypes.bool,       
+  error: PropTypes.string,
   manageLogin: PropTypes.func.isRequired,
   userInfo: PropTypes.object.isRequired,
   setUserInfo: PropTypes.func.isRequired,
